@@ -1,0 +1,12 @@
+{
+    "name": "tor/denylist-api",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tor\\DenylistApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

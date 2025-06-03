@@ -1,10 +1,8 @@
 <?php
-// api.php ou index.php
-
 header('Content-Type: application/json');
 
 header('Access-Control-Allow-Origin: *'); // ou un domaine spécifique
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Content-Type');
 
 // Exemple de données à renvoyer
